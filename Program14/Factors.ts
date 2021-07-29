@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Author : Pakshal Shashikant Jain
+//  Date : 23/07/2021
+//  Program : Write a program which accept number from user and print factors of that number
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+console.log("Jay Ganesh........")
+
+var No : number = 24
+var i : number = 0
+
+for(i = 1;i < No;i++) {
+    if(No % i == 0) {
+        console.log(i)
+    }
+}
